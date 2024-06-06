@@ -1,3 +1,31 @@
-p {
-	font-size: 101112px;
+/* Heading styles */
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-style: normal;
+    color: palevioletred;
+    font-size: 30px;
+    transition: color 2s, opacity 2s; /* Add opacity transition */
+}
+
+/* Apply styles when hovered */
+h1:hover {
+    cursor: pointer;
+    color: black;
+    opacity: 0.8; /* Adjust opacity as needed */
+
+}
+img {
+	width: 250px;
+	font-size: 100px;
+	transform: scale(1);
+	transition: transform 0.3s;
+
+
+}
+img:hover {
+transform: scale(1.2);
+}
+img:active {
+	transform: scale(10)
 }

@@ -1,0 +1,20 @@
+body {
+    background-color: rgba(2, 240, 240, 0.2);
+}
+
+h1 {
+    text-align: center;
+    background-color: royalblue;
+    font: 24px sans-serif; /* Specify font size */
+    padding: 5px;
+    color: burlywood;
+    opacity: 1;
+    transform: scale(2);
+    transition: transform 1s; /* Add transition property here */
+    cursor: not-allowed;
+}
+
+h1:hover {
+	transform: scaleZ(2);
+	cursor: not-allowed;
+}
