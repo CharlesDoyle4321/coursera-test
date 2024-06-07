@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coffee Cooler - Home</title>
+    <title>Coffee Cooler - Contact</title>
     <link rel="stylesheet" href="styles2.css">
 </head>
 <body>
@@ -14,20 +14,18 @@
     </header>
     <div class="content">
         <section>
-            <h2>Welcome to Coffee Cooler!</h2>
-            <p>We specialize in innovative cooling devices for your beverages.</p>
-            <p>Our flagship product is a cooling device that twirls hot water to release heat, keeping your drinks at the perfect temperature.</p>
-            <p>We also offer Yeti-like cups with built-in insulation and our unique cooling technology, as well as a temperature setter that allows you to control and set your preferred drink temperature.</p>
+            <h2>Contact Us</h2>
+            <p>Feel free to get in touch with us for any inquiries or feedback!</p>
+            <form action="#" method="POST">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
         </section>
-        <aside>
-            <h3>Latest Product</h3>
-            <p>Check out our newest product:</p>
-            <ul>
-                <li>Twirl Cooling Device</li>
-                <li>Insulated Cups</li>
-                <li>Temperature Setter</li>
-            </ul>
-        </aside>
     </div>
     <footer>
         <nav>
@@ -40,6 +38,5 @@
         <p>&copy; 2024 Coffee Cooler. All rights reserved.</p>
     </footer>
     <script src="form.js"></script>
-
 </body>
 </html>
